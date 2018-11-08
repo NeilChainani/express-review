@@ -1,0 +1,22 @@
+{
+  "name": "express-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilChainani/express-review.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilChainani/express-review/issues"
+  },
+  "homepage": "https://github.com/NeilChainani/express-review#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

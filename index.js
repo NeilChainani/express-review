@@ -6,6 +6,7 @@ app.get("/", (req, res) => {
 app.get("/test", (req, res) => {
   res.send([3, 2, 1]);
 });
-app.listen(3000, () => {
-  console.log("listening on 3000");
+var port = process.env.port || 3000;
+app.listen(port, () => {
+  console.log(`listening on ${port} `);
 });
